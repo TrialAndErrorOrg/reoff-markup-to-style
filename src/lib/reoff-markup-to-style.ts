@@ -1,7 +1,7 @@
-import { Root } from 'ooxast'
-import { markupToStyle, Options } from 'ooxast-util-markup-to-style'
-import { Plugin } from 'unified'
-export { Options }
+import { markupToStyle, type Options } from 'ooxast-util-markup-to-style'
+import type { Root } from 'ooxast'
+import type { Plugin } from 'unified'
+export type { Options }
 
 /**
  * `reoff` plugin for inferring paragraph styles from the markup of the underlying text.
